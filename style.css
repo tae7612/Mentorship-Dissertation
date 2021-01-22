@@ -1,13 +1,29 @@
 body{
     
     font-family: 'Montserrat', sans-serif;
+
 }
 
 
 header{
     background-color: #57068C;
     
+    
 }
+
+.h1{
+    font-size:3.5rem;
+}
+
+
+.title{
+
+    font-variant: small-caps;
+    letter-spacing: 0.02em;
+    font-weight: 700; 
+    color: #57068C;
+}
+
 
 
 .logo{
@@ -30,15 +46,99 @@ header nav a:hover {
 
 ul.breadcrumbs{
     list-style: none;
+    color: #6D6D6D;
 }
 
 ul.breadcrumbs li{
     display: inline;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 ul.breadcrumbs li+li:before {
   padding: 5px;
   color: black;
-  content: ">";
+  content: url("assets/img/arrow.svg");
 }
+
+
+.intro img{
+    
+    max-width:400px;
+}
+
+.intro p{
+    font-size: 18px;
+    line-height: 170%;
+    font-weight: 300;
+    
+}
+
+
+
+
+
+.seminar img{
+    max-width: 500px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    
+}
+
+.professor{
+    color: #6D6D6D;
+    font-size: 14px;
+}
+
+
+a {
+    color: #57068C;
+    font-weight: bold;
+}
+
+
+/*      ICONS       */
+.icon{
+    height: 25px;
+    width: 25px;
+}
+
+.clock-icon {
+  background: url('assets/img/Clock.svg');
+  display: block;
+}
+
+.calendar-icon {
+  background: url('assets/img/Calendar.svg');
+  display: block;
+}
+
+.location-icon {
+  background: url('assets/img/Location.svg');
+  display: block;
+}
+
+
+
+.register-btn{
+    background-color: #57068C;
+    color: white;
+    
+}
+
+.register-btn:hover{
+    background-color: white;
+    color: #57068C;
+    border: 2px solid #57068C;
+
+}
+
+
+
+
+
+
+
+
+
+

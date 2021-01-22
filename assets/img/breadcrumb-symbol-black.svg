@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="7px" height="10px" viewBox="0 0 7 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Breadcrumb separator</title>
+    <g id="breadcrumb-path" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="1">
+        <g id="collapsed-breadcrumb" transform="translate(-494.000000, -62.000000)" fill="#1d1d1d">
+            <g id="nav-with-breadcrumb" transform="translate(-4.000000, 40.000000)">
+                <path d="M504.055664,27.3225403 C504.195173,27.1830312 504.195173,26.9598166 504.055664,26.8203075 L499.915034,22.6796776 C499.775525,22.5401685 499.55231,22.5401685 499.412801,22.6796776 L498.486461,23.606018 C498.346952,23.7455271 498.346952,23.9687416 498.486461,24.1082507 L501.449634,27.0714239 L498.486461,30.0345971 C498.346952,30.1741062 498.346952,30.3973207 498.486461,30.5368298 L499.412801,31.4631702 C499.55231,31.6026793 499.775525,31.6026793 499.915034,31.4631702 L504.055664,27.3225403 Z" id="breadcrumb-separator"></path>
+            </g>
+        </g>
+    </g>
+</svg>
