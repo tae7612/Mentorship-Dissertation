@@ -1,0 +1,44 @@
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header{
+    background-color: #57068C;
+    
+}
+
+
+.logo{
+    max-width: 250px;
+    height: auto;
+}
+
+header nav a{
+    color: #FFFFFF;
+    font-weight: 540;
+    font-size: 17px;
+    line-height: 29px;
+    font-variant: small-caps;
+  
+}
+
+header nav a:hover {
+    color:  white;
+}
+
+ul.breadcrumbs{
+    list-style: none;
+}
+
+ul.breadcrumbs li{
+    display: inline;
+    font-size: 14px;
+}
+
+ul.breadcrumbs li+li:before {
+  padding: 5px;
+  color: black;
+  content: ">";
+}
