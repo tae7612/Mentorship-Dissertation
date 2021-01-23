@@ -160,6 +160,7 @@ footer .contact-title{
 
 footer .contact-info{
     color: #6d6d6d;
+    font-size: 14px;
     line-height: 170%;
     
 }
@@ -187,10 +188,16 @@ footer a:hover{
 }
 
 
+
 ul.social-btns li{
     background-color: #e0e0e0;
     
     border: none;
+}
+
+
+.social-btns li a{
+    font-size: 18px;
 }
 
 
