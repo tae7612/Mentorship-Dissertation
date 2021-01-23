@@ -143,10 +143,54 @@ a {
 .btn.register-btn:hover{
     background-color: white;
     color: #57068C;
-    border: 2px solid #57068C;
-    
+    border: 2px solid #57068C; 
+}
 
+
+
+footer{
+    border-top: 5px solid #57068C;
+}
+
+
+footer .contact-title{
+    color: #57068C;
+    font-weight: 600;
+}
+
+footer .contact-info{
+    color: #6d6d6d;
+    line-height: 170%;
     
+}
+
+.footer-logo{
+    max-height: 120px;
+}
+
+
+footer a{
+    font-size: 16px;
+    color: #626262;
+    font-weight: 500;
+}
+
+footer a:hover{
+    color: #57068C;
+    text-decoration-line: none;
+    
+}
+
+
+.footer-social{
+    background-color: #e0e0e0;
+}
+
+
+ul.social-btns li{
+    background-color: #e0e0e0;
+    
+    border: none;
 }
 
 
