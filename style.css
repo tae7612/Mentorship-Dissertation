@@ -62,6 +62,14 @@ header nav a:hover {
     opacity: 0.7;
 }
 
+a:hover#nyu-logo {
+    opacity: 1;
+}
+
+a:hover#phd-logo {
+    opacity: 1;
+}
+
 .logo{
     max-height: 40px;
     width: auto;
