@@ -6,39 +6,60 @@
 body{
     
     font-family: 'Montserrat', sans-serif !important;
+    font-size: 15px;
+    color: #404040;
 
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.h1{
+    font-size: 3.3rem;
+}
+
+.h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: black;
 }
 
 
 header{
-    background-color: #57068C;
-    
-    
+    background-color: #57068C;    
 }
 
-.h1{
-    font-size:3.5rem;
+#header-mobile-logo{
+    border-bottom: 1px solid white;
+}
+
+header .fa{
+    color: white;
+}
+
+.dropdown-bars{
+    color: white;
 }
 
 
 .title{
-
-    font-variant: small-caps;
     letter-spacing: 0.02em;
     font-weight: 700; 
-    color: #57068C;
+    color: black;
 }
 
 
 
 .logo{
-    max-width: 250px;
-    height: auto;
+    max-height: 40px;
+    width: auto;
 }
 
 header nav a{
     color: #FFFFFF;
-    font-weight: 540;
+    font-weight: 600;
     font-size: 17px;
     line-height: 29px;
     font-variant: small-caps;
@@ -49,9 +70,15 @@ header nav a:hover {
     color:  white;
 }
 
+
+#breadcrumb-nav{
+    background-color: #220337;
+    color: white;
+}
+
 ul.breadcrumbs{
     list-style: none;
-    color: #6D6D6D;
+    color: #d6d6d6;
 }
 
 ul.breadcrumbs li{
@@ -60,27 +87,77 @@ ul.breadcrumbs li{
     font-weight: 500;
 }
 
+ul.breadcrumbs li i{
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+ul.breadcrumbs li#active{
+    color: white;
+    font-weight: 600;
+}
+
 ul.breadcrumbs li+li:before {
   padding: 5px;
-  color: black;
   content: url("assets/img/arrow.svg");
+}
+
+.dropdown{
+
+}
+
+.dropdown-menu {
+    background-color: #330662;
+    padding: 13px;
+    
+}
+
+.dropdown-menu .dropdown-item{
+    color: white;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 29px;
+    font-variant:small-caps;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: #330662;
+    color: white;
+    font-weight: bold;
+}
+
+.triangle-up {
+    display: none;
+    position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 20px solid #330662;
+    top: -14px;
 }
 
 
 .intro img{
     
-    max-width:400px;
+    max-height:400px;
 }
 
-.intro p{
-    font-size: 18px;
-    line-height: 170%;
-    font-weight: 300;
+p{
+
+    line-height: 200%;
+    font-weight: 500;
+
     
 }
 
 
-
+.seminar{
+    margin-bottom: 40px;
+}
 
 
 .seminar img{
@@ -203,7 +280,51 @@ ul.social-btns li{
 
 
 
+@media all and (min-width: 992px){
+    .navbar .nav-item:hover .dropdown-menu{ display: block; }
+    .triangle-up{ display: block; }
+}
 
+
+@media only screen and (max-width: 992px){
+    
+    .h1{
+        font-size: 2.5rem;
+    }
+    
+    .h2{
+        font-size: 2.0rem;
+        line-height: 150%
+    }
+    
+    .logo{
+        max-height: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 576px){
+    
+    .h1{
+        font-size: 2rem;
+        text-align: center;
+        line-height: 150%
+    }
+    .h2{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    
+    p{
+        font-size: 0.86rem;
+    }
+    
+    .logo{
+        max-height: 25px;
+    }
+}
+
+}
 
 
 
